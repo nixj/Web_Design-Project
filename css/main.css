@@ -1,13 +1,16 @@
 body {
 	max-width: 996px;
+	width: 100%;
 	font: 100%/1.5 "avendir next condensed", Arial, Helvetica;
 	margin: 25px auto;
-}
-
-#wrapper {
-	width: 996px;
-	margin-left: auto;
-	margin-right: auto;
+	background: #f4f4f4; /* Old browsers */
+	background: -moz-linear-gradient(top, #f4f4f4 0%, #dce52b 50%, #37db2b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(50%,#dce52b), color-stop(100%,#37db2b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f4f4f4 0%,#dce52b 50%,#37db2b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f4f4f4 0%,#dce52b 50%,#37db2b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f4f4f4 0%,#dce52b 50%,#37db2b 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f4f4f4 0%,#dce52b 50%,#37db2b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#37db2b',GradientType=0 ); /* IE6-9*/
 }
 
 header {
@@ -53,8 +56,14 @@ a:active {
 	color: yellow;
 }
 
+img {
+	max-width: 100%;
+    height: auto;	
+}
+
 article {
 	width: 100%;
+	text-align: center;
 	padding-top: 15px;
 	float: left;
 }
@@ -65,9 +74,6 @@ h1 {
 	color: green;
 }
 
-.whatis {
-	text-align: center;
-}
 
 h2 {
 	font-size: 1.75em;
@@ -77,16 +83,18 @@ h2 {
 
 a.animals {
 	display: inline;
-	width: 150px;
+	width: 15%;
+	height: auto;
 	float: left;
 	margin: 16px;
 }
 
 a.meet {
 	display: inline;
-	width: auto;
+	width:30%;
+	height: auto;
 	float: left;
-	margin: 10px;
+	margin: 5px;
 }
 
 Img.Tshirt {
@@ -97,20 +105,17 @@ Img.Tshirt {
 
 a.shirts {
 	display: inline;
-	width: auto;
+	width: 30%;
 	float: left;
-	margin: 25px;
+	margin: 3px;
 }
 
 aside {
 	width: 100%;
+	text-align: center;
 	padding-top: 20px;
 	float: left;
 	padding-bottom: 25px;	
-}
-
-.announcements {
-	text-align: center;
 }
 
 a.donate {
@@ -130,6 +135,8 @@ a.donate {
 
 IMG.charlie {
 	display: block;
+	width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -145,11 +152,11 @@ a.email {
 }
 
 a.pics {
-		display: inline;
-		width: auto;
-		float: left;
-		margin: 5px;
-		padding-left: 2%;
+	display: inline;
+	width:32%;
+	height: auto;
+	float: left;
+	margin: 2px;
 }
 
 h3 {
@@ -165,14 +172,28 @@ h4 {
 	color: #FFFF00;
 }
 
+.contacteae {
+	width: 45%;
+	padding-bottom: 35px;
+	float: left;
+}
+
+.contactform {
+	width: 45%;
+	padding-top: 75px;
+	padding-bottom: 35px;
+	;
+	float: right;
+}
+
 .phone {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
 
-.footnotes {
-	text-align: center;
+.copyright {
+	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -185,6 +206,7 @@ footer {
 	border-color: #000;
 	padding-top: 2px;
 	padding-left: 2%;
+	text-align: center;
 	font-size: 1em;
 	color: #000;
 	float: left;
