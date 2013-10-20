@@ -172,6 +172,12 @@ h4 {
 	color: #FFFF00;
 }
 
+.contactheaders {
+	font-size: 1.75em;
+	text-align: center;
+	color: green;
+}
+
 .contacteae {
 	width: 45%;
 	padding-bottom: 35px;
@@ -182,7 +188,6 @@ h4 {
 	width: 45%;
 	padding-top: 75px;
 	padding-bottom: 35px;
-	;
 	float: right;
 }
 
@@ -210,4 +215,84 @@ footer {
 	font-size: 1em;
 	color: #000;
 	float: left;
+}
+
+/*Mobile Portrait Size to Mobile Landscape Size Devices and Browsers*/
+@media screen and (max-width: 468px) {
+	
+	body	{
+		max-width: 468px;
+	}
+	
+	header {
+		width: 100%;
+		padding-left: 16.25%;
+		float: none;
+	}
+	
+	nav {
+		width: 100%;
+		float: none;
+	}
+
+	a {
+		text-decoration: none;
+		display: inline;
+		width: 51%; 
+		text-align: left;
+		float: left;
+		font-size: 1em;
+		color: green;
+	}
+	
+	article, aside, footer {
+		width: 79%;
+		text-align: left;
+		margin-left: 10.5%;
+	}
+	
+	h1, h2, h3 {
+		font-size: 1.5em;
+		text-align: left;
+	}
+	
+	a.animals {
+		display: none;
+	}
+	
+	a.meet {
+		display: block;
+		width: 50%;
+		margin-left: 15%;
+	}
+	
+	a.shirts, a.pics {
+		display: block;
+		width: 50%;
+		float: left;
+		margin-left: 15%;
+	}
+	
+	.contacteae {
+		width: 79%;
+		text-align: center;
+	}
+	
+	.contactform {
+		width: 79%;
+		text-align: left;
+		padding-top: 0px;
+		padding-left: 0%;
+		padding-bottom:  25px;
+	}
+	
+	.contactheaders {
+		font-size: 1.5em;
+	}
+	
+	footer {
+		border-style: none;
+		background-color: yellow;
+	}
+	
 }
