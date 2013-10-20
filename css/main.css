@@ -217,10 +217,66 @@ footer {
 	float: left;
 }
 
+/*Mobile Landscape Size to Tablet Portrait Devices and Browsers*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+		max-width: 767px;
+	}
+	
+	header {
+		width: 30%;
+		padding-left: 2.5%;
+	}
+	
+	nav {
+		width: 65%;
+		padding-right: 2.5%;
+	}
+	
+	a {
+		width: 77.5px;
+		line-height: 20px;
+	}
+	
+	article, aside, footer {
+		width: 95%;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+	
+	a.animals {
+		display: inline;
+		width: 15%;
+		height: auto;
+		float: left;
+		margin: 10px;
+	}
+	
+	a.meet {
+		display: block;
+		width: 20%;
+		margin-left: 5%;
+	}
+	
+	a.shirts, a.pics {
+		display: inline;
+		width: 28%;
+		float: left;
+		margin: 2px;
+	}
+	
+	footer {
+		border-style: none;
+		background-color: yellow;
+	}
+	
+}
+
 /*Mobile Portrait Size to Mobile Landscape Size Devices and Browsers*/
 @media screen and (max-width: 468px) {
 	
-	body	{
+	body {
 		max-width: 468px;
 	}
 	
