@@ -13,6 +13,10 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#37db2b',GradientType=0 ); /* IE6-9*/
 }
 
+a.logo {
+	width: 100%;
+}
+
 header {
 	width: 38%;
 	float: left;
@@ -280,9 +284,13 @@ footer {
 		max-width: 468px;
 	}
 	
+	a.logo {
+		width: 80%;
+	}
+	
 	header {
 		width: 100%;
-		padding-left: 16.25%;
+		padding-left: 10%;
 		float: none;
 	}
 	
